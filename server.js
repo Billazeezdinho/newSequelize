@@ -1,7 +1,7 @@
 //import express database
 const express = require('express');
 //import sequelize database
-const sequelize = require('../DATABASE/sequelize');
+const sequelize = require('./DATABASE/sequelize');
 const clubRouter = require('./routes/clubRouter');
 
 const PORT = 1230;
